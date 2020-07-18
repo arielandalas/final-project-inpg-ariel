@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Inalum By SSC</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <style>
+                body {
+                    font-family: 'Poppins', sans-serif;
+                }
+
+                .navbar-custom {
+                    background-color: #ffffff;
+                }
+
+                .btn-masuk {
+                    background-color: #0094D9;
+                    color: #ffffff;
+                    font-weight: 500;
+                    margin-right: 15px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    padding-right: 30px !important;
+                    padding-left: 30px !important;
+                    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.363);
+                    
+                }
+
+                .btn-daftar {
+                    background-color: #ACC32B;
+                    color: #ffffff;
+                    font-weight: 500;
+                    margin-right: 15px;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    padding-right: 30px !important;
+                    padding-left: 30px !important;
+                    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.363);
+                }
+
+                .bg-user {
+                    background-image: url("../images/bg-user.jpg");
+                    width: 100%;
+                    background-position: cover;
+                    background-position: top;
+                    background-repeat: no-repeat;
+                    background-position-y: -140px;
+                }
+
+                .title-hero {
+                    font-size: 48px;
+                    font-weight: 700;
+                    color: #0B4966;
+                    line-height: 80px;
+                }
+
+                .title-hero span {
+                    color: #EE403D;
+                }
+
+                .bag-btn a {
+                    padding-left: 50px !important;
+                    padding-right: 50px !important;
+                    font-size: 20px;
+                }
+
+                .bg-footer {
+                    background-color: #F3F3F3;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+
+                label {
+                    color: #0B4966;
+                    margin-bottom: -2px;
+                }
+
+                .btn-login {
+                    background-color: #0094D9;
+                    color: #ffffff;
+                    width: 100%;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    margin-top: 40px;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-family: 'Poppins', sans-serif;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.363);
+                }
+
+                .input-custom {
+                    height: 50px;
+                    border-radius: 10px;
+                    border: none;
+                    box-shadow: 0px 4px 7px rgb(184, 184, 184);
+                }
+
+                .passhelp {
+                    color: #EE403D !important;
+                }
+
+                .title h1 {
+                    font-weight: 700;
+                    color: #0B4966;
+                }
+
+                .card-custom {
+                    border: none;
+                }
+
+                .btn-send {
+                    background-color: #2B7DDC;
+                    border-radius: 30px;
+                }
+
+                .navbar-custom2 {
+                    background-color: #013E67;
+                }
+
+                .navbar-custom3 {
+                    background-color: #1D2F3A;
+                }
+
+                .navbar-custom4 {
+                    background-color: #1D2832;
+                }
+                .bg-footer2{
+                    background-color: #0B4966 ;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+
+                }
+                .bg-nav2{
+                    background-color: #0e6791 ;
+                    margin-bottom: 10px;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+                h2{
+                    font-size: 13px;
+                    color: #F3F3F3;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+                .bg-body{
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    background-color: #25558b;
+                }
+                h3{
+                    color: #f0f1f1;
+                }
+                h4{
+                    color:#fbfcfd ;
+                    font-size: 20px;
+                }
+                .card{
+                    margin-bottom: 20px;
+                }
+                h5{
+                    text-align: center;
+                }
+                .partner{
+                    margin-top: 40px;
+                    margin-bottom: 20px;
+                }
+                .run-txt{
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                .badge{
+                    font-size: 25px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                .navbar-toggler-icon{
+                    background-image: url(/images/btn-menu.png);
+                }
+                .header-sub{
+                    background-image: url(/images/img-header.jpg);
+                    margin-top: 10px;
+                    padding-top: 40px;
+                    image-resolution: 100;
+                    padding-bottom: 40px;
+                    background-position: center;
+                    width: 100%;
+                }
+                h6{
+                    color: #F3F3F3;
+                    font-weight: 600;
+                    font-size: 30px;
+                    padding-left: 10px;
+                }
+                .badge-primary{
+                    color: rgb(246, 249, 253);
+                    background-color: rgb(60, 61, 65);
+                    border-radius: 10px;
+                }
+
+
+        </style>
+            <body>
+
+                <nav class="navbar navbar-light  bg-nav2" >
+                    <div class="container">
+                    <a class="navbar-brand" href="#">
+                      <img src="/images/inalum.png" width="100" class="d-inline-block align-top" alt="" loading="lazy">
+                    </a>
+                      <h2>Portal . INALUM - SSC</h2>
+                  </nav>
+                   </div>
+
+
+                   <nav class="navbar navbar-expand-lg navbar-custom">
+                    <div class="container">        
+                        <a class="navbar-brand" href="#">
+                            <!-- <img src="/images/inalum.png" width='120' class="d-inline-block align-top" alt="" loading="lazy"> -->
+                            <img src="/images/Logo SSC1.png" width='60' class="d-inline-block align-top" alt="" loading="lazy">
+                          </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse justify-content-end navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link btn-masuk" href="index.html">Beranda</a>
+                            <a class="nav-item nav-link btn-masuk" href="portofolio.html">Portofolio</a>
+                            <a class="nav-item nav-link btn-masuk" href="blog.html">Blog</a>
+                            <a class="nav-item nav-link btn-masuk" href="about.html">Tentang Kami</a>
+                            <a class="nav-item nav-link btn-masuk" href="contact.html">Hubungi Kami</a>
+                          </div>
+                        </div>
+                    </div>
+                  </nav>
+
+                  <div class="header-sub">
+                    <div class="container header-sub-portofolio">
+                        <h6 class="badge badge-primary">Blog</h6>
+                    </div>
+                </div>
+
+                <div class="bg-body">
+                  <h3>Profesional Dalam Bidang Pengamanan</h3>
+                  <h4>Kami Spesialis di Bidang Pengamanan dan Pemadam Kebakaran Industri</h4>
+                </div>
+
+                <div class="card-columns">
+                    <div class="card">
+                      <img src="/images/drill-pemadam.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title that wraps to a new line</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="blog-pamadam.html" class="btn btn-primary">Klik saya</a>
+                      </div>
+                    </div>
+                    <div class="card p-3">
+                      <blockquote class="blockquote mb-0 card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                          <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card">
+                      <img src="/images/drill-au.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="blog-pamadam.html" class="btn btn-primary">Klik saya</a>
+                      </div>
+                    </div>
+                    <div class="card bg-primary text-white text-center p-3">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                        <footer class="blockquote-footer text-white">
+                          <small>
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card text-center">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="/images/drill-satpam.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card p-3 text-right">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">
+                          <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                          </small>
+                        </footer>
+                      </blockquote>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <a href="blog-pamadam.html" class="btn btn-primary">Klik saya</a>
+                      </div>
+                    </div>
+                  </div>
+    
+
+                        </div>
+
+                    
+
+                  <footer class="bg-footer">
+                    <div class="container">
+                        <div class="row mb-5">
+                            <div class="col-md-12">
+                                <a href="#">
+                                    <img src="/images/mind-id.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-3 mt-3">
+                                <a href="#">
+                                    <img src="/images/antam-mind-id.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 mt-3">
+                                <a href="#">
+                                    <img src="/images/bukit_asam-mind-id.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 mt-3">
+                                <a href="#">
+                                    <img src="/images/timah-mind-id.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-3 mt-3">
+                                <a href="#">
+                                    <img src="/images/freeport-mind-id.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </footer>
+                <div class="bg-footer2">
+                    <center>
+                    <h2>PT Indonesia Asahan Aluminium (Persero)  |  SGN   |  Ariel Busy Andalas  | © 2020</h2>
+                    </center>
+                  </div>
+
+
+
+
+                
+                
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+                <script>
+                  window.__lc = window.__lc || {};
+                  window.__lc.license = 12085662;
+                  ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+                </script>
+                <noscript><a href="https://www.livechatinc.com/chat-with/12085662/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+                <!-- End of LiveChat code -->
+            </body>
+    </head>
+</html>
